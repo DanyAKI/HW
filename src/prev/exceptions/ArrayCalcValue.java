@@ -13,7 +13,7 @@ public class ArrayCalcValue {
             for (int j = 0; j < array[i].length; j++) {
                 try {
                     sum += Integer.parseInt(array[i][j]);
-                    System.out.println("sum = " + sum);
+
 
                 } catch (NumberFormatException exp) {
                     throw new MyArrayDataException(
@@ -27,6 +27,7 @@ public class ArrayCalcValue {
 
 
         }
+        System.out.println("Summa = " + sum);
         return sum;
 
 

@@ -1,12 +1,12 @@
 package prev.exceptions;
 
-public class MyArrayDataException extends RuntimeException{
-    public MyArrayDataException(String message){
+public class MyArrayDataException extends RuntimeException {
+    public MyArrayDataException(String message) {
         super(message);
     }
 
-    public MyArrayDataException (String message, Throwable cause){
-        super(message,cause);
+    public MyArrayDataException(String message, Throwable cause) {
+        super(message, cause);
     }
 
 
